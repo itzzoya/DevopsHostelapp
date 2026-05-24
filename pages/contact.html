@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us — SmartHostel</title>
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="../index.html" class="nav-logo">🏠 Smart<span>Hostel</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="booking.html">Room Booking</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="complaints.html">Complaints</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" title="Toggle theme">🌙</button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="breadcrumb"><a href="../index.html">Home</a> / Contact Us</div>
+    <h1>📞 Contact Us</h1>
+    <p>We're here to help. Reach out to us anytime.</p>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="grid-2" style="align-items:start;">
+
+        <!-- CONTACT INFO -->
+        <div class="fade-in">
+          <div class="section-header" style="text-align:left;margin-bottom:1.5rem;">
+            <div class="section-tag">Get in Touch</div>
+            <h2>Contact Information</h2>
+            <p style="margin:0;">Our team is available Monday–Saturday, 8 AM to 8 PM.</p>
+          </div>
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <h4>Address</h4>
+                <p>Block A, SmartHostel Campus<br/>University Road, Sector 12<br/>Bengaluru, Karnataka — 560001</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div>
+                <h4>Phone Numbers</h4>
+                <p>Main Office: +91 98765 43210<br/>Warden (Boys): +91 98765 00001<br/>Warden (Girls): +91 98765 00002</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <h4>Email</h4>
+                <p>General: info@smarthostel.in<br/>Admissions: admissions@smarthostel.in<br/>Support: support@smarthostel.in</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">🕐</div>
+              <div>
+                <h4>Office Hours</h4>
+                <p>Monday – Friday: 8:00 AM – 8:00 PM<br/>Saturday: 9:00 AM – 5:00 PM<br/>Sunday: Emergency only</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- MAP PLACEHOLDER -->
+          <div class="map-placeholder">
+            <span>🗺️</span>
+            <strong>SmartHostel — Block A</strong>
+            <p style="font-size:0.8rem;color:var(--text-muted);text-align:center;">University Road, Sector 12, Bengaluru<br/>(Interactive map coming soon)</p>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="fade-in">
+          <div class="section-header" style="text-align:left;margin-bottom:1.5rem;">
+            <div class="section-tag">Message Us</div>
+            <h2>Send a Message</h2>
+            <p style="margin:0;">Fill in the form and we'll get back to you within 24 hours.</p>
+          </div>
+          <div class="form-card">
+            <form data-form="contact">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>First Name *</label>
+                  <input type="text" placeholder="Rahul" required />
+                </div>
+                <div class="form-group">
+                  <label>Last Name *</label>
+                  <input type="text" placeholder="Sharma" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Email Address *</label>
+                <input type="email" placeholder="rahul@example.com" required />
+              </div>
+              <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="+91 98765 43210" />
+              </div>
+              <div class="form-group">
+                <label>Subject *</label>
+                <select required>
+                  <option value="">-- Select Subject --</option>
+                  <option>Room Availability Inquiry</option>
+                  <option>Fee & Payment Query</option>
+                  <option>Facilities Information</option>
+                  <option>Complaint / Issue</option>
+                  <option>General Inquiry</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Message *</label>
+                <textarea placeholder="Write your message here..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-blue" style="width:100%;justify-content:center;padding:0.9rem;">📧 Send Message</button>
+            </form>
+          </div>
+
+          <!-- QUICK CONTACT CARDS -->
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.5rem;">
+            <div class="card" style="text-align:center;padding:1.25rem;">
+              <div style="font-size:1.8rem;margin-bottom:0.5rem;">📞</div>
+              <div style="font-weight:700;font-size:0.9rem;">Call Us</div>
+              <div style="font-size:0.82rem;color:var(--text-muted);margin-top:0.25rem;">+91 98765 43210</div>
+            </div>
+            <div class="card" style="text-align:center;padding:1.25rem;">
+              <div style="font-size:1.8rem;margin-bottom:0.5rem;">💬</div>
+              <div style="font-weight:700;font-size:0.9rem;">WhatsApp</div>
+              <div style="font-size:0.82rem;color:var(--text-muted);margin-top:0.25rem;">Chat with us</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">FAQ</div>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="grid-2">
+        <div class="card fade-in">
+          <h3>How do I apply for a room?</h3>
+          <p>Visit the <a href="booking.html" style="color:var(--primary);">Room Booking</a> page, choose your room type, and fill in the application form. We'll confirm within 24 hours.</p>
+        </div>
+        <div class="card fade-in">
+          <h3>What documents are required?</h3>
+          <p>You'll need your student ID, admission letter, a passport photo, and a government-issued ID (Aadhaar/Passport).</p>
+        </div>
+        <div class="card fade-in">
+          <h3>Is food included in the rent?</h3>
+          <p>Mess charges are separate. A monthly mess plan costs ₹2,500 and covers breakfast, lunch, and dinner.</p>
+        </div>
+        <div class="card fade-in">
+          <h3>What is the refund policy?</h3>
+          <p>Security deposits are refunded within 30 days of check-out, subject to room inspection. Monthly rent is non-refundable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo" style="color:#60a5fa;">🏠 Smart<span style="color:#fff;">Hostel</span></div>
+        <p>Providing quality student accommodation since 2018.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="../index.html">Home</a>
+        <a href="facilities.html">Facilities</a>
+        <a href="booking.html">Room Booking</a>
+        <a href="dashboard.html">Dashboard</a>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <a href="complaints.html">Complaints</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="#">📍 Block A, University Road</a>
+        <a href="#">📞 +91 98765 43210</a>
+        <a href="#">✉️ info@smarthostel.in</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 SmartHostel. All rights reserved.</span>
+      <span class="version-badge">v1.0.0</span>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
