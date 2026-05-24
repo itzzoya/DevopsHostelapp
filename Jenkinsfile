@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/DevopsHostelapp.git'
+                git 'https://github.com/itzzoya/DevopsHostelapp.git'
             }
         }
 
